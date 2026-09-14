@@ -6,6 +6,8 @@ public class Moneda : MonoBehaviour
     [SerializeField]
     private float velocidadGiro = 1f;
 
+    public Animator animatorMoneda;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,7 +24,8 @@ public class Moneda : MonoBehaviour
         // Debug.Log("Este objeto mide: " + this.gameObject.transform.localScale);
         // Debug.Log("Este objeto esta orientado hacia: " + this.gameObject.transform.localEulerAngles);
 
-        this.gameObject.transform.localEulerAngles += (velocidadGiro * Time.deltaTime * (new Vector3(0f, 1f, 0f)));
+        // ROTACION POR SCRIPT
+        //this.gameObject.transform.localEulerAngles += (velocidadGiro * Time.deltaTime * (new Vector3(0f, 1f, 0f)));
         //this.gameObject.transform.localPosition += new Vector3(0f, 0.001f, 0f);
         //this.gameObject.transform.Translate(new Vector3(0f, 0.001f, 0f));
     }
@@ -57,5 +60,14 @@ public class Moneda : MonoBehaviour
     void OnCollisionExit(Collision collision)
     {
         Debug.Log("OnCollisionEXIT -> UN OBJETO DEJO DE COLISIONAR CONMIGO: " + collision.gameObject.name);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.GetComponent<ControladorBolaPeso>() != null)
+        {
+            Debug.Log("ME OBTUVO EL OBJETO " + other.gameObject.name);
+            animatorMoneda.SetTrigger("obtencion");
+        }
     }
 }
