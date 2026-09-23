@@ -7,6 +7,8 @@ public class Moneda : MonoBehaviour
     private float velocidadGiro = 1f;
 
     public Animator animatorMoneda;
+    public string tagBuscado;
+    public AudioSource sonido;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -64,10 +66,16 @@ public class Moneda : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.GetComponent<ControladorBolaPeso>() != null)
+        if(other.gameObject.tag == tagBuscado)
         {
             Debug.Log("ME OBTUVO EL OBJETO " + other.gameObject.name);
             animatorMoneda.SetTrigger("obtencion");
         }
+    }
+
+    public void ReproduceSonido(AudioClip clipSonido)
+    {
+        sonido.clip = clipSonido;
+        sonido.Play();
     }
 }
