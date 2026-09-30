@@ -47,8 +47,6 @@ public class ControladorRandomIdle : MonoBehaviour
     public void EmpezarTimer()
     {
         timerFuncionando = true;
-        // Reseteo el trigger de interrupcion
-        animatorPersonaje.ResetTrigger("interrumpeIdle");
 
         Debug.Log("EMPECE EL TIMER");
 
@@ -71,7 +69,7 @@ public class ControladorRandomIdle : MonoBehaviour
 
         // Espera a que termine el clip random anterior
         yield return new WaitForSeconds(1f);
-        // Reestablecer los parametros+
+        // Reestablecer los parametros
         animatorPersonaje.SetBool("estaIdle", false);
         animatorPersonaje.SetFloat("tiempoIdle", 0f);
         timer = 0f;
