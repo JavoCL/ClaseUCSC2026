@@ -27,4 +27,10 @@ public class ControladorBarraSalud : MonoBehaviour
         if(animatorBarraSalud == null)
             animatorBarraSalud = this.GetComponent<Animator>();
     }
+
+    public void SetearSalud01(float nuevaSalud)
+    {
+        float saludNormalizada = nuevaSalud/100f;
+        porcentajeSalud = saludNormalizada;
+    }
 }
