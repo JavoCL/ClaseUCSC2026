@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class ControladorJugador : MonoBehaviour
 {
@@ -19,6 +21,21 @@ public class ControladorJugador : MonoBehaviour
         }
     }
 
+    public InputActionReference inputAtaque;
+    [SerializeField]
+    private DemoArma _armaActual;
+    public DemoArma armaActual
+    {
+        get{return _armaActual;}
+        set
+        {
+            if(value != _armaActual)
+            {
+                _armaActual = value;
+            }
+        }
+    }
+
     public UnityEvent<float> alActualizarSaludActual;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +47,35 @@ public class ControladorJugador : MonoBehaviour
     void Update()
     {
         saludActual += Time.deltaTime;
+    }
+
+    void OnEnable()
+    {
+        inputAtaque.action.started += Atacar;
+    }
+
+    void OnDisable()
+    {
+        inputAtaque.action.started -= Atacar;
+    }
+
+    public void ActivaArma()
+    {
+        if(armaActual == null) return;
+
+        armaActual.SetDanioActivo(true);
+    }
+
+    public void DesactivaArma()
+    {
+        if(armaActual == null) return;
+
+        armaActual.SetDanioActivo(false);
+    }
+
+    private void Atacar(InputAction.CallbackContext context)
+    {
+        this.gameObject.GetComponent<Animator>().SetTrigger("ataque");
     }
 
     public void MensajeSalud()

@@ -3,10 +3,16 @@ using UnityEngine.Events;
 
 public class RayCastDetector : MonoBehaviour
 {
+    // Origen del raycast detector
     public Transform origen;
+    // Que tan largo es el rayo de deteccion
     public float distanciaRayo = 10f;
+    // Cual es la capa donde va a detectar objetos
     public LayerMask layerDeteccion;
     
+    // Propiedad de objeto detectado
+    // Si cambia cual fue el objeto, invoco el evento
+    // con la referencia de ese nuevo objeto
     [SerializeField]
     private Transform _objetoDetectado;
     public Transform objetoDetectado
@@ -14,20 +20,23 @@ public class RayCastDetector : MonoBehaviour
         get{return _objetoDetectado;}
         set
         {
+            // Si detecto un objetivo y es distinto que el anterior...
             if(value != null && value != _objetoDetectado)
             {
+                // ... realizo la asignacion
                 _objetoDetectado = value;
-
+                // ... e invoco el evento pasando el nuevo objetivo como parametro
+                // a quien se suscriba
                 alDetectarObjeto.Invoke(_objetoDetectado);
             }
         }
     }
      
+     // Objetivo anterior detectado
     public Transform ultimoDetectado;
 
     public UnityEvent<Transform> alDetectarObjeto;
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 posOrigen = origen.position;
