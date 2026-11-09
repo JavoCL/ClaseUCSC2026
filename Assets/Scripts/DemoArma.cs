@@ -23,6 +23,7 @@ public class DemoArma : MonoBehaviour
             objetivo = other.gameObject.GetComponent<DemoObjetivo>();
             // Le aviso que lo golpié
             objetivo.esGolpeado = true;
+            objetivo.danioRecibido = danio;
         }
     }
 

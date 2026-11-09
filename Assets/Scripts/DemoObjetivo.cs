@@ -18,11 +18,14 @@ public class DemoObjetivo : MonoBehaviour
 
                 // En el caso de que se haga daño, invoco el evento
                 if(_esGolpeado == true)
-                    alSerGolpeado.Invoke();
+                    alSerGolpeado.Invoke(danioRecibido);
+                Debug.Log("DAÑO RECIBIDO: " + danioRecibido);
             }
         }
     }
-    public UnityEvent alSerGolpeado;
+    
+    public float danioRecibido = 0f;
+    public UnityEvent<float> alSerGolpeado;
 
     public void Log(string mensaje)
     {
