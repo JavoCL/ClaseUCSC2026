@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class MobController : MonoBehaviour
 {
     public NavMeshAgent agente;
+    public Estado estado = Estado.idle;
     public Comportamiento comportamiento = Comportamiento.APuntoObjetivo;
     // Propiedad de objetivo o punto a seguir
     [SerializeField]
@@ -28,10 +29,15 @@ public class MobController : MonoBehaviour
                     case Comportamiento.APuntoObjetivo:
                         MandarAPuntoObjetivo();
                         break;
-                    case Comportamiento.Seguir:
+                    case Comportamiento.Seguidor:
                         SeguirObjetivo();
                         break;
-                    case Comportamiento.Patrullar:
+                    case Comportamiento.Hostil:
+                        SeguirObjetivo();
+                        // Comenzar rutina de ataque
+                        Atacar();
+                        break;
+                    case Comportamiento.Patrulla:
                         Patrullar();
                         break;
                 }
@@ -151,15 +157,9 @@ public class MobController : MonoBehaviour
         yield return null;
     }
 
-    public void CalcularDistanciaPuntoTarget()
-    {
-        StartCoroutine(_CalcularDistanciaPuntoTarget());
-    }
+    public void CalcularDistanciaPuntoTarget(){StartCoroutine(_CalcularDistanciaPuntoTarget());}
 
-    public void DetenerCalculoDistancia()
-    {
-        calculandoDistancia = false;
-    }
+    public void DetenerCalculoDistancia(){calculandoDistancia = false;}
 
     public void SeguirObjetivo()
     {
@@ -169,7 +169,9 @@ public class MobController : MonoBehaviour
 
     IEnumerator _SeguirObjetivo()
     {
-        while(target != null)
+        estado = Estado.siguiendo;
+
+        while(target != null && estado == Estado.siguiendo)
         {
             if(distancia > toleranciaDist)
                 agente.SetDestination(target.position);
@@ -184,6 +186,8 @@ public class MobController : MonoBehaviour
 
     IEnumerator _CalcularDistanciaTR()
     {
+        // Esperamos tener un objetivo valido para calcular la distancia
+        yield return new WaitUntil(()=> target != null);
         calculandoDistancia = true;
 
         while(calculandoDistancia == true)
@@ -193,5 +197,50 @@ public class MobController : MonoBehaviour
         }
     }
 
-    public enum Comportamiento {APuntoObjetivo, Seguir, Patrullar};
+    public void Atacar()
+    {
+        StartCoroutine(_Atacar());
+    }
+
+    IEnumerator _Atacar()
+    {
+        Debug.Log("Esperando un objetivo valido para atacar");
+        yield return new WaitUntil(()=> target != null);
+
+        // Esperamos a estar cerca del objetivo
+        Debug.Log("Esperando a estar cerca del objetivo");
+        yield return new WaitUntil(()=> distancia <= toleranciaDist);
+        
+        Debug.Log("Estoy cerca del objetivo. VOY A ATACAR!");
+        estado = Estado.atacando;
+        while(target != null && estado != Estado.atacando)
+        {
+            // Si llegué a la posicion del objetivo
+            if(distancia <= toleranciaDist)
+            {
+                estado = Estado.atacando;
+            }
+
+            yield return null;
+        }
+
+        // Ya que me acerque lo sufieciente, comienzo a atacar
+        animatorMob.SetBool("atacando", true);
+        
+        // Esperamos a que el objetivo se muera o se aleje
+        yield return new WaitUntil(()=> target.GetComponent<DemoControladorEstadisticas>().estaVivo == false
+                                        || distancia > toleranciaDist);
+        animatorMob.SetBool("atacando", false);
+        estado = Estado.idle;
+        if(target.GetComponent<DemoControladorEstadisticas>().estaVivo == true)
+        {
+            SeguirObjetivo();
+            Atacar();
+        }
+        else
+            target = null;
+    }
+
+    public enum Comportamiento {APuntoObjetivo, Seguidor, Patrulla, Hostil, Arranca};
+    public enum Estado {idle, siguiendo, atacando};
 }

@@ -5,21 +5,21 @@ using UnityEngine.InputSystem;
 
 public class ControladorJugador : MonoBehaviour
 {
-    public float saludBase = 100f;
-    [SerializeField]
-    private float _saludActual;
-    public float saludActual
-    {
-        get { return _saludActual; }
-        set
-        {
-            if(value != _saludActual)
-            {
-                _saludActual = value;
-                alActualizarSaludActual.Invoke(_saludActual);
-            }
-        }
-    }
+    // public float saludBase = 100f;
+    // [SerializeField]
+    // private float _saludActual;
+    // public float saludActual
+    // {
+    //     get { return _saludActual; }
+    //     set
+    //     {
+    //         if(value != _saludActual)
+    //         {
+    //             _saludActual = value;
+    //             alActualizarSaludActual.Invoke(_saludActual);
+    //         }
+    //     }
+    // }
 
     public InputActionReference inputAtaque;
     [SerializeField]
@@ -46,7 +46,7 @@ public class ControladorJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        saludActual += Time.deltaTime;
+        //saludActual += Time.deltaTime;
     }
 
     void OnEnable()
@@ -80,7 +80,7 @@ public class ControladorJugador : MonoBehaviour
 
     public void MensajeSalud()
     {
-        Debug.Log("Mi salud actual es: " + saludActual);
+        //Debug.Log("Mi salud actual es: " + saludActual);
     }
 
     public void Metodo(Collider col)

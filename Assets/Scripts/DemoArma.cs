@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class DemoArma : MonoBehaviour
+public class DemoArma : DemoItem
 {
     [Header("Estadisticas arma")]
     public Tipo tipo = Tipo.espada_corta;
