@@ -1,14 +1,15 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class DemoArma : DemoItem
 {
     [Header("Estadisticas arma")]
     public Tipo tipo = Tipo.espada_corta;
+    
     public float danio = 10f;
     public bool danioActivo = false;
     // Objetivo del golpe del arma
     public DemoObjetivo objetivo;
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -30,7 +31,7 @@ public class DemoArma : DemoItem
     void OnTriggerExit(Collider other)
     {
         // Si no esta activo el daño del arma, termino la deteccion
-        if(danioActivo == false) return;
+        //if(danioActivo == false) return;
 
         // Si esta activo, prosigo.
         // Si el elemento que golpee tiene un componente de Objetivo..
@@ -46,5 +47,5 @@ public class DemoArma : DemoItem
     public void SetDanioActivo(bool valor) { danioActivo = valor; }
 
 
-    public enum Tipo{espada_corta, espada_larga, lanza, mazo, hacha1Mano, hacha2Manos}
+    public enum Tipo{daga, espada_corta, espada_larga, lanza, mazo, hacha1Mano, hacha2Manos}
 }

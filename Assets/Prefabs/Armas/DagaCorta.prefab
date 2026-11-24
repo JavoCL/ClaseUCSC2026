@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &320556882734583962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2841998165556082481}
+    m_Modifications:
+    - target: {fileID: 1421948775106820, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Knife_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6993449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7147844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000021234138
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000059604595
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -91.251
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.0010070801
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.0010070801
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 64310332023804930, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+--- !u!4 &316069003848954240 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4573817231778074, guid: 53288e2e44402a149a88a9c02ab0b18a, type: 3}
+  m_PrefabInstance: {fileID: 320556882734583962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3168886127984314959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1658686339180270801, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Size.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658686339180270801, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Size.y
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658686339180270801, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Size.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658686339180270801, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658686339180270801, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Center.y
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658686339180270801, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: danio
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: nombre
+      value: Daga corta
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: descripcion
+      value: Cuchillo corto de las cocinas de los orcos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: audioItem.Reference
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: 2d505c7cb08054741bb146cf13d75c28, type: 2}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647076097720692051, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: m_Name
+      value: DagaCorta Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 903793485648444798, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 316069003848954240}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+--- !u!4 &2841998165556082481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 903793485648444798, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+  m_PrefabInstance: {fileID: 3168886127984314959}
+  m_PrefabAsset: {fileID: 0}

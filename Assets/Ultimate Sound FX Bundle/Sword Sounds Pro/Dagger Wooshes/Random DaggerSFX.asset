@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8594755590706296441
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 8_{-8594755590706296441}
+  m_AudioClip: {fileID: 8300000, guid: b859e68d1ee754945a02bd904d545626, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6366084819618335470
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 6_{-6366084819618335470}
+  m_AudioClip: {fileID: 8300000, guid: 304db65a508798941b2c7d0225df5700, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6319239914172732822
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 9_{-6319239914172732822}
+  m_AudioClip: {fileID: 8300000, guid: e03244b50ec39764dab732e92c38ce28, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4447571325990979772
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 5_{-4447571325990979772}
+  m_AudioClip: {fileID: 8300000, guid: f5498a847a756f84abde50d2d8e008ae, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4394341383609074483
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 10_{-4394341383609074483}
+  m_AudioClip: {fileID: 8300000, guid: 9a78042ab4c71be42bf29f0796105225, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4001705070722582784
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 2_{-4001705070722582784}
+  m_AudioClip: {fileID: 8300000, guid: 35981aaad5fc42e46882585bc82de8ca, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1436464887790465440
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 3_{-1436464887790465440}
+  m_AudioClip: {fileID: 8300000, guid: 4ea3c03684de9a24d8d242bcf452d164, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1517258725602883292
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 4_{1517258725602883292}
+  m_AudioClip: {fileID: 8300000, guid: ed83d0886f6cc4e4699804dc08ca53f1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2184864999220734059
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 7_{2184864999220734059}
+  m_AudioClip: {fileID: 8300000, guid: 343eb4ecf149f7741a4309d5778596a0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Random DaggerSFX
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 8779620020147549651}
+  - {fileID: -4001705070722582784}
+  - {fileID: -1436464887790465440}
+  - {fileID: 1517258725602883292}
+  - {fileID: -4447571325990979772}
+  - {fileID: -6366084819618335470}
+  - {fileID: 2184864999220734059}
+  - {fileID: -8594755590706296441}
+  - {fileID: -6319239914172732822}
+  - {fileID: -4394341383609074483}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 1
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8779620020147549651
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dagger woosh 1_{8779620020147549651}
+  m_AudioClip: {fileID: 8300000, guid: 57e40ae70c0ed164aa2ee063acdf8076, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

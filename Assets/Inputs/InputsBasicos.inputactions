@@ -35,6 +35,16 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Interaccion",
+                    "type": "Button",
+                    "id": "6cbecb7c-de8e-402c-a28d-5314804977ed",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -189,6 +199,17 @@
                     "processors": "",
                     "groups": ";ControlGamepad",
                     "action": "Giro",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39c83929-3739-439d-ad0e-9601140b1b19",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";TecladoRaton",
+                    "action": "Interaccion",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

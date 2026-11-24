@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Audio;
 using UnityEngine.Events;
 
 public class MobController : MonoBehaviour
@@ -65,6 +66,8 @@ public class MobController : MonoBehaviour
             }
         }
     }
+
+    public AudioSource audioAtaque;
 
     // Lista de posiciones donde enviar rutinariamente al mob
     public List<Transform> posPatrulla;
@@ -240,6 +243,13 @@ public class MobController : MonoBehaviour
         else
             target = null;
     }
+
+    public void AsignarAudioAtaque(DemoItem nuevaArma)
+    {
+        audioAtaque.generator = nuevaArma.audioItem.definition;
+    }
+
+    public void ReproducirAudioAtaque() { audioAtaque.Play(); }
 
     public enum Comportamiento {APuntoObjetivo, Seguidor, Patrulla, Hostil, Arranca};
     public enum Estado {idle, siguiendo, atacando};

@@ -91,6 +91,79 @@ PrefabInstance:
       propertyPath: danio
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: nombre
+      value: Cimitarra Orca
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: descripcion
+      value: "Esta cimitarra fue forjada por elfos corrputos capturados por los orcos
+        del Se\xF1or Oscuro cuando se estaba comiendo un completo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: audioItem.Reference
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: 0040f1546282c404a834d91c0341bf4e, type: 2}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3496519959189781758}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3496519959189781758}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetDanioActivo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetDanioActivo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DemoArma, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DemoArma, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alActivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+      propertyPath: eventos.alDesactivarItem.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2878289156100682125, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.13119
@@ -148,3 +221,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 903793485648444798, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
   m_PrefabInstance: {fileID: 3340365786847192545}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3496519959189781758 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2224073001978353951, guid: d1398f6d547cdf0418503550d158fc78, type: 3}
+  m_PrefabInstance: {fileID: 3340365786847192545}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80722ffdc86b57845b501d44716e071c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'

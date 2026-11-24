@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8837100307678120788
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 16_{-8837100307678120788}
+  m_AudioClip: {fileID: 8300000, guid: 2ff8fa24e1fa0534d9bdaf91df72365b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8701209342247276476
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 12_{-8701209342247276476}
+  m_AudioClip: {fileID: 8300000, guid: 3f482cdfc7582884abdd25755d58792c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6882719206388027236
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 3_{-6882719206388027236}
+  m_AudioClip: {fileID: 8300000, guid: e32676e5b812b3941ae8f3ad0a6f70d8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6477720217268179680
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 9_{-6477720217268179680}
+  m_AudioClip: {fileID: 8300000, guid: bc365a2c399b84f468ac23ec231be1b4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6275464782435916909
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 15_{-6275464782435916909}
+  m_AudioClip: {fileID: 8300000, guid: ce2996b9b60ec5a459837701028e3c00, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4102458244403336476
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 18_{-4102458244403336476}
+  m_AudioClip: {fileID: 8300000, guid: 9f88fc5b387f55647a5f4dad7bcad16b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3627457891488958567
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 8_{-3627457891488958567}
+  m_AudioClip: {fileID: 8300000, guid: 5032ad2ee6ac6214f9a1a355ce107e1b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2932669339632142700
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 10_{-2932669339632142700}
+  m_AudioClip: {fileID: 8300000, guid: 8c215807c61408e4aabf46de2a5494ce, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2782396947482250835
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 6_{-2782396947482250835}
+  m_AudioClip: {fileID: 8300000, guid: d42cff7e65b194946b36e4e7cb521826, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1857173547368942278
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 17_{-1857173547368942278}
+  m_AudioClip: {fileID: 8300000, guid: 6195a99a203d52e4892eddb6d8de8848, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1663894372005284190
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 2_{-1663894372005284190}
+  m_AudioClip: {fileID: 8300000, guid: bfba642933a548344b3ce798391ec4fa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1155848752647848281
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 11_{-1155848752647848281}
+  m_AudioClip: {fileID: 8300000, guid: 819330f33b9ea014f990dd335112905e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4319754935531783482
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 7_{4319754935531783482}
+  m_AudioClip: {fileID: 8300000, guid: 38093ceb95cbe6b4e9dae7b032f8ef87, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5434461411195016685
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 4_{5434461411195016685}
+  m_AudioClip: {fileID: 8300000, guid: ab08a0c4dac662942bbf8614828c3898, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5677926657810315885
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 14_{5677926657810315885}
+  m_AudioClip: {fileID: 8300000, guid: addd09e0dc46bb64c96e331be7514341, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5852604384781555027
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 13_{5852604384781555027}
+  m_AudioClip: {fileID: 8300000, guid: a77b4d74dc8908a4aadb41418baff787, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6116434098596309996
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 5_{6116434098596309996}
+  m_AudioClip: {fileID: 8300000, guid: 25ab34cf58198f741b135ec9c47cdc3d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Random SwordWoosh
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 8772341813710942195}
+  - {fileID: -1663894372005284190}
+  - {fileID: -6882719206388027236}
+  - {fileID: 5434461411195016685}
+  - {fileID: 6116434098596309996}
+  - {fileID: -2782396947482250835}
+  - {fileID: 4319754935531783482}
+  - {fileID: -3627457891488958567}
+  - {fileID: -6477720217268179680}
+  - {fileID: -2932669339632142700}
+  - {fileID: -1155848752647848281}
+  - {fileID: -8701209342247276476}
+  - {fileID: 5852604384781555027}
+  - {fileID: 5677926657810315885}
+  - {fileID: -6275464782435916909}
+  - {fileID: -8837100307678120788}
+  - {fileID: -1857173547368942278}
+  - {fileID: -4102458244403336476}
+  - {fileID: 9171884922510685828}
+  - {fileID: 6883372039764610363}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 1
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6883372039764610363
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 20_{6883372039764610363}
+  m_AudioClip: {fileID: 8300000, guid: 16bed8573756b2e479b03af7561297a8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8772341813710942195
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 1_{8772341813710942195}
+  m_AudioClip: {fileID: 8300000, guid: de78f13adee119243961f71d7972d71e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &9171884922510685828
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword Woosh 19_{9171884922510685828}
+  m_AudioClip: {fileID: 8300000, guid: 3f26057c340bb8b48a028025293428a4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

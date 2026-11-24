@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Events;
 
 public class DemoItem : MonoBehaviour
 {
     public string nombre;
+    [TextArea(1,5)]
     public string descripcion;
     
     [SerializeField]
@@ -24,13 +26,19 @@ public class DemoItem : MonoBehaviour
             }
         }
     }
-    
+
+    //
+    public IAudioGenerator.Serializable audioItem;
     public Eventos eventos;
 
     // METODOS
     public void ActivarItem() { estaActivo = true; }
     public void DesactivarItem() { estaActivo = false; }
 
+    public void AsignarAudioItem()
+    {
+        
+    }
 
     // EVENTOS
     [System.Serializable]
